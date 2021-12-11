@@ -1,0 +1,18 @@
+<h1>Edit Fruit</h1>
+
+<form action="/fruits/<%= fruit.id %>?_method=PUT " method="POST">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" value="<%= fruit.name %> ">
+    <br><br>
+    <label for="color">Color</label>
+    <input type="text" name="color" id="color" value="<%= fruit.color %>">
+    <br><br>
+    <label for="readyToEat">Is Ready to eat</label>
+    <input type="checkbox" name="readyToEat" id="readyToEat" 
+    <% if(fruit.readyToEat === true){ %>
+  				checked
+  			<% } %>
+     />
+    <br><br>
+    <input type="submit" value="Edit the Fruit">
+</form>

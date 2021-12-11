@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Apple",
+        "color": "Green",
+        "readyToEat": false
+    },
+    {
+        "name": "Banana",
+        "color": "Yellow",
+        "readyToEat": true
+    },
+    {
+        "name": "Orange",
+        "color": "Orange",
+        "readyToEat": false
+    }
+]
